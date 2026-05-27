@@ -47,13 +47,38 @@
   color: var(--text);
 }
 
+/* CONTENT */
 .about__content {
   max-width: 800px;
   margin: 0 auto;
-  padding: 64px 24px 100px;
+  padding: 72px 24px 100px;
   display: flex;
   flex-direction: column;
   gap: 64px;
+}
+
+/* MANIFESTO */
+.about__manifesto {
+  padding: 48px 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  text-align: center;
+}
+
+.about__manifesto-text {
+  font-family: var(--font-serif);
+  font-size: clamp(20px, 3vw, 32px);
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--accent);
+  letter-spacing: 0.01em;
+}
+
+/* BLOCKS */
+.about__block {
+  display: flex;
+  flex-direction: column;
 }
 
 .about__block-title {
@@ -61,7 +86,7 @@
   font-weight: 600;
   letter-spacing: 0.3em;
   color: var(--text-muted);
-  margin-bottom: 32px;
+  margin-bottom: 28px;
 }
 
 .about__text {
@@ -72,44 +97,27 @@
 
 .about__text p {
   font-size: 15px;
-  line-height: 1.75;
+  line-height: 1.8;
   color: var(--text-dim);
   letter-spacing: 0.02em;
 }
 
-.about__values {
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-}
-
-.about__value-item {
-  padding: 28px 0;
-  border-bottom: 1px solid var(--border);
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 32px;
-  align-items: start;
-}
-
-.about__value-item:first-child {
+/* CLOSING QUOTE */
+.about__closing {
   border-top: 1px solid var(--border);
+  padding-top: 48px;
+  text-align: center;
 }
 
-.about__value-item h3 {
-  font-size: 10px;
-  font-weight: 600;
-  letter-spacing: 0.15em;
-  color: var(--text);
+.about__closing p {
+  font-size: clamp(14px, 2vw, 18px);
+  font-style: italic;
+  color: var(--text-muted);
+  letter-spacing: 0.06em;
+  line-height: 1.7;
 }
 
-.about__value-item p {
-  font-size: 13px;
-  line-height: 1.6;
-  color: var(--text-dim);
-  letter-spacing: 0.03em;
-}
-
+/* RESPONSIVE */
 @media (max-width: 768px) {
   .about__hero-mascot {
     width: 140px;
@@ -126,8 +134,7 @@
     align-self: flex-end;
     margin-top: -40px;
   }
-  .about__value-item {
-    grid-template-columns: 1fr;
-    gap: 10px;
+  .about__manifesto-text {
+    font-size: clamp(17px, 5vw, 24px);
   }
 }

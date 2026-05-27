@@ -15,38 +15,57 @@ export default function About() {
       </div>
 
       <div className="about__content">
+
+        <div className="about__manifesto">
+          <p className="about__manifesto-text">
+            "For all those who once had their heart broken<br />
+            and became rockstars."
+          </p>
+        </div>
+
         <div className="about__block">
-          <h2 className="about__block-title">LA MARCA</h2>
+          <h2 className="about__block-title">EL ESPÍRITU</h2>
           <div className="about__text">
             <p>
-              Don't Break nació de la convicción de que la ropa debe
-              ser tan resistente como quienes la visten. Cada prenda
-              es diseñada para las personas que enfrentan sus propios
-              límites y eligen no romperse.
+              DontBreak representa a quienes, en algún momento, se rompieron por dentro —
+              una pérdida, una traición, un fracaso, una caída —
+              pero en vez de venirse abajo, se volvieron más fuertes.
             </p>
             <p>
-              Construimos con materiales premium, cortamos para durar
-              y diseñamos para destacar sin gritar. La oscuridad no
-              es ausencia de luz — es presencia de carácter.
+              No es una marca de tristeza. Es una marca de renacimiento.
             </p>
           </div>
         </div>
 
         <div className="about__block">
-          <h2 className="about__block-title">FILOSOFÍA</h2>
-          <div className="about__values">
-            {[
-              { title: "CALIDAD SIN COMPROMISO", desc: "Materiales seleccionados, costuras reforzadas, acabados que perduran." },
-              { title: "DISEÑO ATEMPORAL", desc: "Sin tendencias efímeras. Piezas que se mantienen relevantes." },
-              { title: "COMUNIDAD PRIMERO", desc: "Construido para y con las personas que visten la marca." },
-            ].map(v => (
-              <div key={v.title} className="about__value-item">
-                <h3>{v.title}</h3>
-                <p>{v.desc}</p>
-              </div>
-            ))}
+          <h2 className="about__block-title">EL MENSAJE</h2>
+          <div className="about__text">
+            <p>
+              El dolor no te destruyó. Te convirtió en alguien más resistente,
+              más creativo, más auténtico. Un rockstar no en el sentido literal,
+              sino en el sentido de actitud, poder interno y estilo propio.
+            </p>
           </div>
         </div>
+
+        <div className="about__block">
+          <h2 className="about__block-title">IDENTIDAD URBANA</h2>
+          <div className="about__text">
+            <p>
+              La marca encaja perfecto en el streetwear porque la calle también es eso:
+              caerse, levantarse, aprender, resistir y encontrar tu propia voz.
+            </p>
+            <p>
+              El dolor se convierte en estética.<br />
+              La historia se vuelve estilo.
+            </p>
+          </div>
+        </div>
+
+        <div className="about__closing">
+          <p>"Yo pasé por fuego, pero no me rompí. Me transformé."</p>
+        </div>
+
       </div>
     </div>
   )
