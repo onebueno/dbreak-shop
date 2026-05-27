@@ -70,7 +70,7 @@ export default function Footer() {
       </div>
 
       <div className="footer__bottom">
-        <p>© 2024 Don't Break Worldwide. Todos los derechos reservados.</p>
+        <p>© 2026 Don't Break Worldwide. Todos los derechos reservados.</p>
       </div>
     </footer>
   )

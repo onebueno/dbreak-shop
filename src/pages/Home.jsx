@@ -54,8 +54,7 @@ export default function Home({ onCartOpen }) {
         <div className="home-statement__inner">
           <p className="home-statement__label">FILOSOFÍA</p>
           <blockquote className="home-statement__quote">
-            "No rompas bajo presión.
-            <br />Viste lo que te define."
+            "Para todos aquellos que alguna vez sufrieron una decepción amorosa y se volvieron rockstars."
           </blockquote>
         </div>
       </section>

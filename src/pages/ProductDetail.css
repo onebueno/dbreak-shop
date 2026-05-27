@@ -272,6 +272,20 @@
   line-height: 1.75;
   color: var(--text-muted);
   letter-spacing: 0.04em;
+  margin-bottom: 14px;
+}
+
+.accordion__body p:last-child {
+  margin-bottom: 0;
+}
+
+.accordion__body strong {
+  display: block;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  color: var(--text-dim);
+  margin-bottom: 4px;
 }
 
 /* Not found */

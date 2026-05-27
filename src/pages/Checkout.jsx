@@ -341,7 +341,7 @@ export default function Checkout() {
           </div>
 
           <p className="checkout__summary-note">
-            El costo de envío será coordinado por WhatsApp según tu ubicación.
+            El costo de envío será coordinado por WhatsApp según tu ubicación. No se aceptan devoluciones.
           </p>
         </aside>
       </div>

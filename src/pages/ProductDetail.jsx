@@ -168,7 +168,14 @@ export default function ProductDetail({ onCartOpen }) {
               <p>Lavado a mano o máquina en frío. No usar secadora. Planchar a temperatura media. No usar blanqueador.</p>
             </Accordion>
             <Accordion label="ENVÍOS Y DEVOLUCIONES">
-              <p>Envíos a todo el Perú. Lima Metropolitana: 1-2 días hábiles. Provincias: 3-5 días hábiles. Devoluciones dentro de 10 días con etiqueta original.</p>
+              <p><strong>Cambios de producto</strong><br />
+              Aceptamos cambios dentro de los 14 días desde la recepción del pedido. El producto debe estar sin uso, en perfectas condiciones y en su empaque original. Puedes cambiarlo por otra talla, otro color u otro producto del mismo valor. Si el nuevo producto tiene un valor mayor, se paga la diferencia. El costo de envío corre por cuenta del cliente, salvo que el cambio sea por error nuestro.</p>
+              <p><strong>Devoluciones</strong><br />
+              No realizamos devoluciones de dinero por cambios de opinión o error al elegir talla/color. Esto se debe a que trabajamos con stock limitado y prendas cuidadosamente controladas. Recomendamos revisar la guía de tallas antes de comprar. Si tienes dudas, puedes escribirnos antes de finalizar tu compra.</p>
+              <p><strong>Productos con falla o error</strong><br />
+              Si recibes un producto con falla de fábrica, error en el modelo, color, talla, diseño o estampado, escríbenos dentro de las 48 horas desde que recibes tu pedido. En estos casos, si bien no es posible la devolución, nos hacemos cargo del cambio y cubrimos el envío correspondiente.</p>
+              <p><strong>Condiciones importantes</strong><br />
+              No se aceptan cambios en productos usados, lavados o dañados por mal uso.</p>
             </Accordion>
           </div>
         </div>
