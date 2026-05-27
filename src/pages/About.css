@@ -1,0 +1,133 @@
+.about {
+  padding-top: var(--nav-height);
+  min-height: 100vh;
+}
+
+.about__hero {
+  padding: 80px 24px 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 32px;
+  overflow: hidden;
+}
+
+.about__hero-text {
+  flex: 1;
+}
+
+.about__hero-mascot {
+  width: 220px;
+  flex-shrink: 0;
+  align-self: flex-end;
+}
+
+.about__hero-mascot img {
+  width: 100%;
+  display: block;
+  object-fit: contain;
+}
+
+.about__eyebrow {
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 0.3em;
+  color: var(--text-muted);
+  margin-bottom: 20px;
+}
+
+.about__title {
+  font-size: clamp(40px, 7vw, 80px);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1;
+  color: var(--text);
+}
+
+.about__content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 64px 24px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.about__block-title {
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  color: var(--text-muted);
+  margin-bottom: 32px;
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about__text p {
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--text-dim);
+  letter-spacing: 0.02em;
+}
+
+.about__values {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.about__value-item {
+  padding: 28px 0;
+  border-bottom: 1px solid var(--border);
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 32px;
+  align-items: start;
+}
+
+.about__value-item:first-child {
+  border-top: 1px solid var(--border);
+}
+
+.about__value-item h3 {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  color: var(--text);
+}
+
+.about__value-item p {
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--text-dim);
+  letter-spacing: 0.03em;
+}
+
+@media (max-width: 768px) {
+  .about__hero-mascot {
+    width: 140px;
+  }
+}
+
+@media (max-width: 600px) {
+  .about__hero {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .about__hero-mascot {
+    width: 160px;
+    align-self: flex-end;
+    margin-top: -40px;
+  }
+  .about__value-item {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}
