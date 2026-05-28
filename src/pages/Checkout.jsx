@@ -4,7 +4,7 @@ import { useCart } from '../context/CartContext.jsx'
 import logo from '../assets/logo_alt.png'
 import './Checkout.css'
 
-const WHATSAPP_NUMBER = '51941573650'
+const WHATSAPP_NUMBER = '51924182843'
 
 const DISTRITOS_LIMA = [
   'Barranco', 'Breña', 'Callao', 'Chorrillos', 'Comas', 'El Agustino',
@@ -85,7 +85,7 @@ export default function Checkout() {
       ``,
       `💰 TOTAL: S/ ${totalPrice.toFixed(2)}`,
       ``,
-      `Voy a realizar el YAPE al número 941 573 650 por S/ ${totalPrice.toFixed(2)}.`,
+      `Voy a realizar el YAPE al número 924 182 843 por S/ ${totalPrice.toFixed(2)}.`,
     ].filter(l => l !== null).join('\n')
 
     return encodeURIComponent(msg)
@@ -269,7 +269,7 @@ export default function Checkout() {
               <div className="checkout__yape-info">
                 <div className="checkout__yape-row">
                   <span className="checkout__yape-row-label">Número Yape</span>
-                  <span className="checkout__yape-row-value">941 573 650</span>
+                  <span className="checkout__yape-row-value">924 182 843</span>
                 </div>
                 <div className="checkout__yape-row">
                   <span className="checkout__yape-row-label">Nombre</span>
@@ -287,7 +287,7 @@ export default function Checkout() {
                   <line x1="12" y1="8" x2="12" y2="12"/>
                   <line x1="12" y1="16" x2="12.01" y2="16"/>
                 </svg>
-                <p>Realiza tu Yape por <strong>S/ {totalPrice.toFixed(2)}</strong> al número <strong>941 573 650</strong>. Al confirmar, serás redirigido a WhatsApp donde podrás adjuntar el comprobante y verificar el estado de tu pedido.</p>
+                <p>Realiza tu Yape por <strong>S/ {totalPrice.toFixed(2)}</strong> al número <strong>924 182 843</strong>. Al confirmar, serás redirigido a WhatsApp donde podrás adjuntar el comprobante y verificar el estado de tu pedido.</p>
               </div>
             </div>
           </div>
